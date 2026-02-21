@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:3000/form.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><script type="text/javascript" src="./form1_files/___vscode_livepreview_injected_script"></script>
+
+<h2>Contact Form</h2>
+
+<input type="text" id="name" placeholder="Name">
+<button onclick="validate()">Submit</button>
+
+<p id="error" style="color:red;"></p>
+
+<script>
+function validate() {
+  var name = document.getElementById("name").value;
+  if(name === "") {
+    document.getElementById("error").innerText = "Name is required!";
+  } else {
+    document.getElementById("error").innerText = "Form submitted!";
+  }
+}
+</script>
+<style>
+    body{
+        background-color: skyblue;
+        text-align: center;
+    }
+</style>
+
+
+</body></html>

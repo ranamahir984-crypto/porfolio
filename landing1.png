@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://127.0.0.1:3000/LANDING.HTML -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" src="./landing1_files/___vscode_livepreview_injected_script"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.hero {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: #f4f4f4;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+#html{
+    background-color: grey;
+}
+#css{
+    background-color: grey;
+}
+#js{
+    background-color: grey;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+  <h1>My Landing Page</h1>
+  <p>Clean &amp; Responsive Design</p>
+</div>
+
+<div class="services">
+  <div id="html" class="card">HTML</div>
+  <div id="css" class="card">CSS</div>
+  <div id="js" class="card">JavaScript</div>
+</div>
+
+<footer>
+  Contact: example@email.com
+</footer>
+
+
+</body></html>
