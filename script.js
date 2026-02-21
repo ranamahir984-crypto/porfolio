@@ -65,5 +65,15 @@ setTimeout(type,100);
 }
 
 type();
+window.onload=function(){
+document.getElementById("loader").style.display="none";
+}
+  var text=["Frontend Developer","HTML CSS Expert","Web Designer"];
+var i=0;
+setInterval(function(){
+document.getElementById("role").innerHTML=text[i];
+i=(i+1)%text.length;
+},2000);
 </script>
+
 
