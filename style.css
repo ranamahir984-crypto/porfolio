@@ -245,4 +245,44 @@ opacity:1;
 transform:translateY(0);
 
 }
+.skills{
+
+display:flex;
+
+gap:15px;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+}
+
+.skill{
+
+padding:10px 20px;
+
+background:#00ffcc;
+
+border-radius:6px;
+
+color:black;
+
+font-weight:bold;
+
+}
+#progress{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+height:5px;
+
+background:#00ffcc;
+
+width:0%;
+
+}
 
